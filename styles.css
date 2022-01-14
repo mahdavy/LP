@@ -1,0 +1,59 @@
+body{
+
+}
+.header{
+
+}
+h1{
+    font-size: 24px;
+    color: #f9faf8;
+}
+h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+h3{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+}
+.top-section{
+    background-color: #1f2937;
+}
+.top{
+
+}
+.row{
+
+}
+.sign-up{
+
+}
+.quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font: italic;
+    color: #1f2937;
+}
+#quoting{
+    font-weight: bold;
+    font-size: 24px;
+}
+.footer{
+    background-color: #1f2937;
+}
+#top-signup{
+    background-color: #3882f6;
+}
+#bottom-signup{
+    background-color: #3882f6;
+}
+.header-links{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.top-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
