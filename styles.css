@@ -88,8 +88,12 @@ h3{
     margin:20px;
 }
 #row{
-    margin:20%;
+    margin:100px;
+    margin-left: 300px;
+    padding: 100px;
+
 }
-.row-text{
-    display: inline-flex;
+#row{
+  display: flex;
+  flex-wrap: wrap;
 }
