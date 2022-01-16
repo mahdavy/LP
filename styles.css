@@ -1,5 +1,4 @@
-body{
-
+.body{
 }
 .header{
     display: flex;
@@ -11,12 +10,15 @@ h1{
     font-size: 24px;
     color: #f9faf8;
     margin-right: 200px;
+    margin-left: 100px;
     padding: 20px;
 }
 h2{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-left: 50px;
+    padding: 10px;
 }
 h3{
     font-size: 36px;
@@ -27,9 +29,11 @@ h3{
     background-color: #1f2937;
 }
 .top{
-
-}
-.row{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin:30px;
+    padding: 20px;
 
 }
 .sign-up{
@@ -51,6 +55,11 @@ h3{
 }
 #top-signup{
     background-color: #3882f6;
+    justify-self: flex-start;
+    order: -3;
+    padding: 10px;
+    align-self: flex-end;
+    
 }
 #bottom-signup{
     background-color: #3882f6;
@@ -65,4 +74,22 @@ h3{
 .top-text{
     font-size: 18px;
     color: #e5e7eb;
+    align-self: flex-end;
+    margin:10px;
+}
+#top-img{
+    width: 550px;
+    height: auto;
+    justify-content: end;
+}
+.images{
+    width: 250px;
+    height: 250px;
+    margin:20px;
+}
+#row{
+    margin:20%;
+}
+.row-text{
+    display: inline-flex;
 }
