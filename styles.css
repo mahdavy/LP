@@ -95,7 +95,6 @@ h3{
     display: flex;
     justify-content: center;
 }
-#row-text{
-    margin:10px;
-    padding:10px;
+.row-text{
+    padding: 10px;
 }
