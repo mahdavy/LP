@@ -21,6 +21,7 @@ h2{
     color: #fafbf9;
     padding: 10px;
     align-self: flex-start;
+    width: 400px;
 }
 h3{
     font-size: 36px;
@@ -56,29 +57,44 @@ h4{
     font: italic;
     color: #1f2937;
 }
+#quote-text{
+    width: 750px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 30px;
+}
 #quoting{
     font-weight: bold;
     font-size: 24px;
+    margin-left: 800px;
+    margin-top: -40px;
 }
 .footer{
     background-color: #1f2937;
-    position:fixed bottom;
+    color: #f9faf8;
 }
 #top-signup{
     background-color: #3882f6;
     justify-self: flex-end;
-    padding: 10px;
     align-self: flex-start;
-    margin-left: 100px;
-    border-radius: 10px;
+    margin-left: 20px;
+    border-width: 0px;
+    border-radius: 5px;
     color: #f9faf8;
     font-weight: bold;
+    width: 100px;
+    height: 30px;
 }
 #bottom-signup{
     background-color: #3882f6;
-    border-radius: 10px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #fafbf9;
     color: #f9faf8;
     font-weight: bold;
+    width: 80px;
+    height: 30px;
+    margin-left: 800px;
 }
 .header-links{
     font-size: 18px;
@@ -90,12 +106,16 @@ h4{
 .top-text{
     font-size: 18px;
     color: #e5e7eb;
-    margin:10px;
+    margin:20px;
+    width: 500px;
 }
 #top-img{
-    width: 550px;
-    height: auto;
-    display: inline;
+    width: 600px;
+    height: 350px;
+    margin-left: 600px;
+    margin-bottom: 100px;
+    margin-top: -450px;
+    padding: 20px;
 }
 .images{
     width: 250px;
@@ -111,4 +131,9 @@ h4{
 }
 .row-text{
     padding: 10px;
+}
+#footer-text{
+    display: flex;
+    align-self:center;
+    justify-content: center;
 }
