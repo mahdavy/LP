@@ -41,6 +41,14 @@ h3{
 }
 .sign-up{
     background-color: #3882f6;
+    margin: 60px;
+    padding: 20px;
+    border-radius: 20px;
+    color: #f9faf8;
+}
+h4{
+    font-size: 24px;
+    font-weight: bold;
 }
 .quote{
     background-color: #e5e7eb;
@@ -62,10 +70,15 @@ h3{
     padding: 10px;
     align-self: flex-start;
     margin-left: 100px;
-    
+    border-radius: 10px;
+    color: #f9faf8;
+    font-weight: bold;
 }
 #bottom-signup{
     background-color: #3882f6;
+    border-radius: 10px;
+    color: #f9faf8;
+    font-weight: bold;
 }
 .header-links{
     font-size: 18px;
@@ -87,8 +100,9 @@ h3{
 .images{
     width: 250px;
     height: 250px;
-    margin:20px;
-    
+    margin: 20px;
+    border: 3px solid #3882f6;
+    border-radius: 20px;
 }
 #row{
     padding: 50px;
